@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter,Route, Routes } from "react-router-dom";
+import { BrowserRouter,Route, Switch} from "react-router-dom";
 import Navbar from './Navbar';
 import Fruits from './Fruits';
 import Veggies from './Veggies';
@@ -11,12 +11,12 @@ function App() {
     <div className="App">
     <BrowserRouter>
     <Navbar />
-    <Routes>
+    <Switch>
       <Route path='/'>
       <Form />
       </Route>
 
-      <Route path='/Fetchproducts' element={<Fetchproducts/>}>
+      <Route path='/Fetchproducts' element={<Fetchproducts/>}> 
       <Fetchproducts />
       </Route>
 
@@ -28,7 +28,7 @@ function App() {
       <Veggies />
       </Route>
 
-      </Routes> 
+      </Switch> 
   </BrowserRouter>
   </div>
   );

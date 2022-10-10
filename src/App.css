@@ -2,11 +2,50 @@
   text-align: center;  
  
 }
-body{
-  background-image: url();
-  background-repeat: no-repeat;
-  background-size: 80%;
 
+Form{
+  padding: 10px;
+  margin: 40px auto;
+}
+h2{
+  font-size: 3.5em;
+
+}
+
+.NavLinks{
+  justify-content: space-evenly;
+  color: red;
+}
+.form input{
+    padding: 8px;
+    border: 3px solid green;
+    width: 300px;
+    border: none;
+    
+}
+
+.form{
+  background-image: url("https://img.freepik.com/free-photo/healthy-food-dish-black-stone-background-healthful-set-including-vegetables-fruits-grape-apple-kiwi-pepper-lime-cabbage-zucchini-grapefruit-proper-nutrition-vegetarian-menu_155003-34695.jpg?w=740&t=st=1665414865~exp=1665415465~hmac=91be298f85caf48110b37c3f3af13cfbbf23c2b009db432a951facd50738e7c0");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: yellowgreen;
+  font-weight: bolder;
+
+}
+.Login, label{
+  align-items: flex-end;
+}
+
+button{
+  padding: 5px;
+  background-color: #fff;
+  color: green;
+  font-size: 20px;
+  width: 10%;
+  border: none;
+  border-radius: 3px;
+  border: 3px solid green;
+  font-weight: bold;
 }
 
 
