@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nancy",
+      "email": "nancy@gmail.com",
+      "password": "password",
+      "confirPass": "confirPass"
+    },
+    {
+      "name": "Ede",
+      "email": "ede@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": "z7MTXfN"
+    },
+    {
+      "name": "Success",
+      "email": "success@gmail.com",
+      "password": "246803678",
+      "confirmPassword": "425626272",
+      "id": "4PtK5sy"
+    },
+    {
+      "name": "nancy",
+      "email": "ede@gmail.com",
+      "password": "132424252",
+      "confirmPassword": "24252526",
+      "id": "J_RHCJf"
+    },
+    {
+      "name": "nancy",
+      "email": "ede@gmail.com",
+      "password": "132424252",
+      "confirmPassword": "24252526",
+      "id": "gfqcaDf"
+    },
+    {
+      "name": "nancy",
+      "email": "ede@gmail.com",
+      "password": "132424252",
+      "confirmPassword": "24252526",
+      "id": "DOootbZ"
+    },
+    {
+      "name": "nancy",
+      "email": "ede@gmail.com",
+      "password": "132424252",
+      "confirmPassword": "24252526",
+      "id": "zF038_O"
+    },
+    {
+      "name": "Joy",
+      "email": "ede@gmail.com",
+      "password": "62626262",
+      "confirmPassword": "66272772",
+      "id": "dDD_mzb"
+    },
+    {
+      "name": "",
+      "email": "awuornancy66@gmail.com",
+      "password": "V!jD3RhR2",
+      "confirmPassword": "5353633",
+      "id": "ZHdMK3W"
+    }
+  ]
+}

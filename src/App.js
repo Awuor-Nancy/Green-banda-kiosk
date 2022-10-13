@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter,Route, Switch} from "react-router-dom";
+import { BrowserRouter,Route, Switch } from "react-router-dom";
 import Navbar from './Navbar';
 import Fruits from './Fruits';
 import Veggies from './Veggies';
-import Fetchproducts from './Fetchproducts';
+import Products from './Fetchproducts';
 import Form from "./Form";
 
 function App() {
@@ -12,19 +12,19 @@ function App() {
     <BrowserRouter>
     <Navbar />
     <Switch>
-      <Route path='/'>
+      <Route exact path to='/'>
       <Form />
       </Route>
 
-      <Route path='/Fetchproducts' element={<Fetchproducts/>}> 
-      <Fetchproducts />
+      <Route path ='/products'> 
+      <Products />
       </Route>
 
-      <Route path='/Fruits' element={<Fruits/>}>
+      <Route path ='/fruits'>
       <Fruits />
       </Route>
 
-      <Route path='/Veggies' >
+      <Route path ='/veggies' >
       <Veggies />
       </Route>
 

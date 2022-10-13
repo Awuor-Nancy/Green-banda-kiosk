@@ -4,10 +4,11 @@ import './App.css'
 const Products =() =>{
     const [product, setProduct] = useState()
     const [loading , setLoading] = useState(false);
+
     useEffect(() => {   
-        products()  
+        allProducts()  
     },[])  
-    const products = ()=>{
+    const allProducts = ()=>{
      fetch('http://localhost:5000/products')
      .then(res => res.json())
      .then(
@@ -23,11 +24,12 @@ const Products =() =>{
   }
       return (
         <div>
-           {/* <p> {email?<Footer email={email}/> :<Navbar/>}</p> */}
+         
           <h2>Welcome to GreensKiosk</h2>
-          <p id="unique">We have fruits and vegetables</p>
+          <p>We have fruits and vegetables</p>
           <div className="container">
           <h3>All Products</h3>
+          
           <div className="products">
             {product.map(item =>(
           <div key={item.id}>

@@ -9,6 +9,7 @@ Form{
 }
 h2{
   font-size: 3.5em;
+  color: green; 
 
 }
 
@@ -16,24 +17,39 @@ h2{
   justify-content: space-evenly;
   color: red;
 }
+
 .form input{
     padding: 8px;
-    border: 3px solid green;
     width: 300px;
     border: none;
     
 }
 
 .form{
-  background-image: url("https://img.freepik.com/free-photo/healthy-food-dish-black-stone-background-healthful-set-including-vegetables-fruits-grape-apple-kiwi-pepper-lime-cabbage-zucchini-grapefruit-proper-nutrition-vegetarian-menu_155003-34695.jpg?w=740&t=st=1665414865~exp=1665415465~hmac=91be298f85caf48110b37c3f3af13cfbbf23c2b009db432a951facd50738e7c0");
+  background-image: url("https://media.istockphoto.com/photos/healthy-food-healthy-eating-background-fruit-vegetable-berry-eating-picture-id1409236261?b=1&k=20&m=1409236261&s=170667a&w=0&h=5WCpVuWDM9bd6c6ZdLiRHWsfMtzTft-7Hn0fA7-GN9o=");
   background-repeat: no-repeat;
+  backface-visibility: visible;
+  background-position: contain;
   background-size: 100%;
-  color: yellowgreen;
+  color: #fff;
   font-weight: bolder;
 
 }
 .Login, label{
   align-items: flex-end;
+}
+.veggies{
+  display: flex;
+}
+.fruits{
+  display: flex;
+  
+}
+.fruits img{
+  border-radius: 50%;
+}
+.veggies img{
+  border-radius: 50%;
 }
 
 button{
@@ -41,7 +57,7 @@ button{
   background-color: #fff;
   color: green;
   font-size: 20px;
-  width: 10%;
+  /* width: 15%; */
   border: none;
   border-radius: 3px;
   border: 3px solid green;

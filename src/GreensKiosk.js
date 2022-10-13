@@ -1,11 +1,13 @@
 let products = [
     {
         name: 'Mangoes',
-        category: 'fruits'
+        category: 'fruits',
+        thumbnail: "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZydWl0cyUyMGFuZCUyMHZlZ2dpZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
         name: 'Apples',
-        category: 'fruits'
+        category: 'fruits',
+        thumbnail: "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZydWl0cyUyMGFuZCUyMHZlZ2dpZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
         name: 'Bananas',
